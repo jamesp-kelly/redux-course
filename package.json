@@ -8,6 +8,7 @@
     "redux": "^3.6.0"
   },
   "devDependencies": {
+    "prop-types": "^15.5.8",
     "react-scripts": "0.9.5"
   },
   "scripts": {
