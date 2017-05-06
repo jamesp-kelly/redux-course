@@ -15,3 +15,7 @@ export const toggleTodo = (id) => ({
   type: 'TOGGLE_TODO',
   id
 });
+
+export const clickClear = () =>({
+  type: 'CLEAR_TODOS'
+});
