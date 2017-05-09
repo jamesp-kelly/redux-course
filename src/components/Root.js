@@ -6,7 +6,7 @@ import TodoApp from './TodoApp'
 const Root = ({ store }) => (
   <Provider store={store}>
     <BrowserRouter>
-      <Route path="/" component={TodoApp}  />  
+      <Route path="/:filter?" component={TodoApp}  />  
     </BrowserRouter> 
   </Provider>
 )
